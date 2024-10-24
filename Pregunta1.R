@@ -18,6 +18,6 @@ plot(t, pexp(t,25), type="l", col="red")
 #rexp=smulacion
 #qexp=F(0.5)^-1=mediana
 #qexp=F(0.25)^-1=quantil
-
+#tiempo medio=1/lambda
 mean(rexp(500000,25))
 1/25
